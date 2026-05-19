@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment variables / secrets
+.env
+*.key
+*.secret
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# RAG / AI model files (large files)
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.gguf
+
+# Vector database / index files
+chroma_db/
+faiss_index/
+*.index
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
